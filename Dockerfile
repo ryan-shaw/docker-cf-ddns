@@ -2,7 +2,7 @@ FROM ubuntu:20.04
 
 RUN set -e; \
     apt-get update ; \
-    apt-get install cron jq
+    apt-get install -yq cron jq
 
 ADD /src/etc/ /etc/
 ADD /src/cf-ddns.sh /
