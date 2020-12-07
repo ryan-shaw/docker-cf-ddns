@@ -1,4 +1,4 @@
-FROM balenalib/rpi-raspbian:stretch-20200503
+FROM ubuntu:20.04
 
 RUN set -e; \
     apt-get update ; \
